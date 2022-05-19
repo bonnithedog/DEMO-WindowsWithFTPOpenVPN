@@ -2,7 +2,7 @@
 variable "company" {
   type        = string
   description = "The company name used to build resources"
-  default = "Bauer"
+  default = "TheCompanyName"
 }
 # application name 
 variable "app_name" {
