@@ -4,7 +4,7 @@ resource "random_string" "random-win-vm" {
   special = false
   lower   = true
   upper   = false
-  number  = true
+  numeric = true
 }
 # Create Network Security Group to Access web VM from Internet
 resource "azurerm_network_security_group" "web-windows-vm-nsg" {
